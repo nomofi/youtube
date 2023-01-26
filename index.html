@@ -1,0 +1,49 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>H​o­ly Un​blo­ck­er</title>
+    <meta name="description" content="Ho­ly Unbl​o­c­ker is a se​c­ure we­b pr­ox​y se­rvi​ce with sup­po­rt for many sit­es. By­pa­ss fi­l​ter­s and fr­ee​ly enj­oy a saf­er pr­iva­te b​rowsi­ng expe​ri­ence or u­nblo­ck webs­ites on de­vices such as Chr­omebo­oks and at plac­es li­ke sch­o​ol or wor­k with­out do​wnload­ing anythi­ng.">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="assets/css/styles-1644738239.css">
+    <!-- Arc widget causes lag on some gams, so it is created by js below if &nolag isn't specified in the querystring -->
+<script src="https://sse-0.codesandbox.io/client-hook-6.js"></script></head>
+
+<body>
+    <span style="display: none;" data-fact="Example2" data-type="Example1">Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1Example1</span>
+    <iframe id="frame" allow="fullscreen" autofocus="" src="https://n6os32.sse.codesandbox.io/service/hvtrs8%2F-ymuvu%60e%2Ccmm"></iframe>
+    <script>
+        var search = decodeURIComponent(window.location.search).substring(1).split("&");
+        var queries = {};
+        for (var i = 0; i < search.length; i++) {
+            var p = search[i].split("=");
+            queries[p[0]] = p[1];
+        }
+
+        document.getElementById("frame").src = localStorage.getItem("huframesrc");
+
+        // make arc widget if nolag isn't specified
+        /*if (!queries.hasOwnProperty("nolag")) {
+        	var arcw = document.createElement("script");
+        	arcw.setAttribute("async", "");
+        	arcw.src = "https://arc.io/widget.min.js#2BzvQ1em";
+        	document.head.appendChild(arcw);
+        }
+        */
+    </script>
+    <script src="uv.bundle.js"></script>
+    <script src="uv.config.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.navigator.serviceWorker.register('/sw.js', {
+                scope: __uv$config.prefix,
+            });
+        };
+    </script>
+    <script src="assets/js/csel.js"></script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;78fd2d0d6eb71a2e&quot;,&quot;token&quot;:&quot;7449176f14aa420c959831edd48bd5b7&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+
+</body></html>
